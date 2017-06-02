@@ -1,0 +1,27 @@
+# Error Message app.rb
+reserver_form_errormsg: Please correct the errors below
+error_name: "at least 3 letters"
+error_email: "invalid email"
+error_tel: "at least 8 digits"
+error_guest: "choose number of guest"
+error_time: "choose time"
+error_date: "choose date"
+
+# ROOT bekreftelse
+bekreftelse_tittel: Thank you for your reservation!
+bekreftelse_text1: "You have reserved table for "
+bekreftelse_text2: " guests,"
+bekreftelse_text3: "time "
+bekreftelse_text4: " date "
+bekreftelse_text5: We will send you an email confirmation very soon.
+bekreftelse_text6: Welcome!
+
+# Mail
+mail_title: New Reservation
+
+# Title and Meta description
+index_meta: "Tabibito New Asian Cuisine Restaurant, serves you the best flavors and specialities from Asia."
+index_title: "Welcome to Tabibito | Asian and Chinese restaurant | Best and popular in Oslo"
+
+
+bekreftelse_title: "Confirmation Reservation"

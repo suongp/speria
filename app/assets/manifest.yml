@@ -1,0 +1,8 @@
+js:
+  - lib/jquery-3.2.1.min.js
+  - lib/kube.min.js
+  - app.js
+
+css:
+  - lib/kube.min.css
+  - app.css

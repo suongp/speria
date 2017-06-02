@@ -1,0 +1,27 @@
+root:
+  - /
+  - /en
+
+om_oss:
+  - /om-oss
+  - /en/about-us
+
+contact:
+  - /kontakt
+  - /en/contact
+
+confirmation:
+  - /takk
+  - /en/thanks
+
+design_utvikling:
+  - /design-utvikling
+  - /en/design-development
+
+seo_marketing:
+  - /seo-markedsforing
+  - /en/seo-marketing
+
+hosting_drift:
+  - /hosting-drift
+  - /en/hosting-support

@@ -1,0 +1,235 @@
+<% @meta = t('index_meta') %>
+<% @title = t('index_title') %>
+
+<div class="head-image">
+  <h1>Speria Creative</h1>
+  <hr style="width:6%; margin-left: 42%;">
+  <blockquote><p> "Vi tenker ut av boksen og lager nettsider med personlighet"</p></blockquote>
+  <hr style="width:5%; margin-left: 28%;"><hr style="width:3%; margin-left: 62%;">
+</div>
+<div class="full-width border-row light-background">
+  <div class="about-us inner-width">
+    <div class="row gutters">
+      <div class="col col-6 about-us-intro">
+        <h2>Om Oss</h2>
+         <hr style="width:6%; margin-top: -12px;">
+        <p>
+          Speria Creative ble etablert i 2017. Vi er idag et lite dedikert team med to fast ansatte, og et nettverk av freelancere som vi kobler inn i flere av våre prosjekter.
+        </p>
+        <p>
+          Vi er genuint opptatt av å levere gode løsninger for våre kunder, og spesialiserer oss innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene vi bygger er brukervennlige, responsive og søkemotoroptimaliserte.
+        </p>
+        <a href="<%= u(:om_oss) %>">Les mer</a>
+      </div>
+      <div class="col col-6 about-us-image">
+        <img src="/images/screen_tabibito.jpeg" alt="image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="full-width border-row  dark-background">
+  <div class="tjenester inner-width">
+    <div class="row">
+      <div class="col col-12 title-space">
+        <h2>Tjenester</h2>
+        <hr style="width:4%; margin-top: -12px; margin-left: 4em;">
+        <p>
+          Speria Creative leverer skreddersydd webdesign til hyggelige priser.<br>
+          Sjekk hva vi har å tilby og hvorfor du nettopp skal velge oss.
+        </p>
+      </div>
+    </div>
+
+    <div class="row gutters paragraph">
+      <div class="col col-4 space-between">
+        <div class="circle">
+          <img class="img-circle" src="/images/design_icon.png" alt="icon">
+        </div>
+        <div class="vertical-line">
+        <h3>Design &amp; Utvikling</h3>
+        <p>
+          Vi er kreative webdesigner som lager unike design fra scratch.
+        </p>
+        <a href="<%= u(:design_utvikling) %>">Les mer</a>
+        </div>
+      </div>
+
+      <div class="col col-4 space-between">
+        <div class="circle">
+          <img class="img-circle" src="/images/seo_icon.png" alt="icon">
+        </div>
+        <div class="vertical-line">
+        <h3>Markedsføring &amp; SEO</h3>
+        <p>
+          Vi er eksperter på markedsføring, og hjelper deg med å bli synlig på nettet.
+         </p>
+        <a href="<%= u(:seo_marketing) %>">Les mer</a>
+        </div>
+      </div>
+
+      <div class="col col-4 space-between">
+        <div class="circle">
+          <img class="img-circle" src="/images/hosting_icon.png" alt="icon">
+        </div>
+        <h3>Hosting &amp; Drift</h3>
+        <p>
+          Vi har oppfølgingsgaranti og hjelper deg med hosting.
+        </p>
+        <a href="<%= u(:hosting_drift) %>">Les mer</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="full-width border-row light-background">
+  <div class="inner-width">
+    <div class="portfolio">
+      <h2 id="prosjekter">Siste Prosjekter</h2>
+      <hr style="width:5%; margin-top: -12px; margin-left: 3em;">
+    </div>
+  </div>
+  <div class="inner-width fade">
+    <figure>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="/images/tabibito.jpg">
+          <div class="text-slider"><h4><a href="http://tabibito.no" target="_blank">Tabibito Asian Fusion Restaurant</a></h4></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="/images/crowdfundhq.jpg">
+          <div class="text-slider"><h4><a href="https://crowdfundhq.com" target="_blank">CrowdfundHQ - Create your own Website</a></h4></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </figure>
+  </div>
+</div>
+<div class="go-top">
+  <a id="arrow-up" href="/#navi"><img src="/images/arrow_up.png"></a>
+</div>
+
+<div class="full-width border-row dark-background">
+  <div class="contact-form inner-width">
+    <div class="row gutters">
+      <div class="col col-4 ta-kontakt" id="kontakt">
+        <h2>Ta Kontakt</h2>
+        <hr style="width:10%; margin-top: -12px;  margin-left: 3em;">
+        <p>Fyll ut kontaktskjemaet eller send en epost, så svarer vi så fort vi kan.</p>
+        <p>Vi ser frem til å kunne samarbeide med deg.</p><br>
+        <p><span>&#9743;&nbsp;</span>&nbsp;+47 402 95 090</p>
+        <p><span>&#9993;&nbsp;</span>&nbsp;<a href="mailto:post@speria.no">post@speria.no</a></p>
+        <p><span>&#8858;&nbsp;</span>&nbsp; Oslo, Norge</p>
+      </div>
+      <div class="col col-8">
+        <form method="post" class="form">
+          <div class="row gutters">
+            <div class="col col-6">
+              <div class="form-item">
+                <label>Navn / Firma<span class="req">*</span></label>
+                <input type="email">
+              </div>
+            </div>
+            <div class="col col-6">
+              <div class="form-item">
+                <label>Telefon</label>
+                <input type="text" name="phone-number">
+              </div>
+            </div>
+          </div>
+          <div class="row gutters">
+            <div class="col col-6">
+              <div class="form-item">
+                <label>Epost<span class="req">*</span></label>
+                <input type="email">
+              </div>
+            </div>
+            <div class="col col-6">
+              <div class="form-item">
+                <label>Emne<span class="req">*</span></label>
+                <select>
+                  <option value="">...</option>
+                  <option value="">Prisforespørsel</option>
+                  <option value="">Spørsmål om våre tjenester</option>
+                  <option value="">Markedsføring</option>
+                  <option value="">Design og utvikling</option>
+                  <option value="">Hosting og Drift</option>
+                  <option value="">Annet</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-item">
+            <label>Beskjed</label>
+            <textarea rows="6"></textarea>
+          </div>
+          <div class="form-item">
+            <button class="w100 button-style"">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  var index = 0, tick = 5000, timer, i
+    , slides = document.getElementsByClassName('mySlides');
+
+  document.addEventListener('DOMContentLoaded', function(){
+    for(i = 0; i < slides.length; i++) {
+      console.log('Hello');
+      slides[i].addEventListener('mouseenter', function(event){
+        var t = event.srcElement.querySelector('.text-slider');
+        $(t).fadeIn();
+        // t.style.display = 'block';
+        clearTimeout(timer);
+        console.log(event);
+        console.log('enter');
+      });
+
+      slides[i].addEventListener('mouseleave', function(event){
+        console.log('leave');
+        var t = event.srcElement.querySelector('.text-slider');
+        $(t).fadeOut();
+        restartTimer();
+      });
+    }
+  });
+
+  function restartTimer() {
+    clearTimeout(timer);
+    timer = setTimeout(carousel, tick);
+  }
+
+  function plusSlides(n) {
+    showSlides(index += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(index = n);
+  }
+
+  function carousel() {
+    showSlides(index += 1);
+  }
+
+  function showSlides(n) {
+    if (n > slides.length){ index = 1;}
+    if (n < 1){ index = slides.length;}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+    slides[index-1].style.display = 'block';
+
+    restartTimer();
+  }
+
+  carousel();
+
+</script>
+

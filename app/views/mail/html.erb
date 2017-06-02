@@ -1,0 +1,14 @@
+<h1><%= t('mail_title') %></h1>
+<p>
+  <%= params['name'] %>, <%= params['email'] %>
+  <br>
+  <%= t('reserver_form_mob') %>: <%= params['tel'] %>
+</p>
+<div><%= t('reserver_form_dato') %>: <%= params['dato'] %></div>
+<div><%= t('reserver_form_tid') %>: <%= params['tid'] %></div>
+<div><%= t('reserver_form_antall') %>: <%= params['antall'] %></div>
+<p>
+  <% if params['message'].present? %>
+    <%= params['message'].gsub(%r{(\r\n|\n|\r)}, '<br>') %>
+  <% end %>
+</p>

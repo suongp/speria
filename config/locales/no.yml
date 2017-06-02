@@ -1,0 +1,47 @@
+# INDEX
+index_meta: Vi utvikler hjemmesider med fokus høy søkeoptimalisering og rangering på
+index_title: Speria Creative - Webdesign og Webutvikling, SEO og Markedsføring, Hosting og Drift Oslo
+
+# OM OSS
+om-oss_meta:
+om-oss_title: Om Oss| Speria Creative - Webdesign og Webutvikling, SEO og Markedsføring, Hosting og Drift Oslo
+
+# DESIGN & UTVIKLING
+design_meta: Vi lager alle designer fra scratch med personlighet, samtidig som vi setter fokus på søkeoptimalisering.
+desig _title: Design & Utvikling| Speria Creative
+
+# SEO & MARKEDSFØRING
+om-oss_meta: Vi er eksperter på markedsføring
+om-oss_title: SEO & Markedsføring| Speria Creative
+
+# HOSTING & DRIFT
+host_meta: Vi tilbyr hosting og oppfølging til et veldig lavt pris.
+host_title: Hosting & Drift| Speria Creative
+
+# PROSJEKTER
+host_meta: Ta en kikk på våre siste Prosjeketer
+host_title: Prosjekter| Speria Creative
+
+# KONTAKT
+host_meta:
+host_title: Kontakt| Speria Creative - post@speria.no
+
+
+# Error Message app.rb
+reserver_form_errormsg: Vennligst rett opp feilen nedenfor.
+error_name: "Minst 3 bokstaver"
+error_emne: "Du må velge et emne"
+error_email: "Ugyldig epost"
+error_beskjed: "Kan ikke stå tomt, og må minst ha 10 bokstaver"
+
+
+# ROOT bekreftelse
+bekreftelse_tittel: Takk for din henvendelse!
+bekreftelse_text1: "Vi tar kontakt fortløpende."
+
+# Mail
+
+# Title and Meta description
+index_meta: "Speria Creative er en webdesign firma som leverer"
+index_title: "Speria Creative | Vi lager rimelige og billige webdesign og hjelper deg med SEO Søkeoptimalisering. Vi tilbyr hosting og drift"
+
