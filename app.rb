@@ -52,7 +52,8 @@ class App < Sinatra::Base
 
     @errors['name'] << t('error_name') if params['name'].strip.size < 3
     @errors['email'] << t('error_email') if params['email'].strip !~ EMAIL_REGEXP
-    @errors['phone'] << t('error_phone') if params['phone'].strip.size < 8
+    ps = params['phone'].strip.size
+    @errors['phone'] << t('error_phone') if ps > 0 and ps < 8
     @errors['subject'] << t('error_subject') if params['subject'].strip.blank?
 
     if @errors.any?
