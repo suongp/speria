@@ -125,18 +125,30 @@
         <p><span>&#8858;&nbsp;</span>&nbsp; Oslo, Norge</p>
       </div>
       <div class="col col-8">
-        <form method="post" class="form">
+        <% if @errors and @errors.any? %>
+          <div class="message error" data-component="message">
+            <%= t('correct_errors') %>
+            <span class="close small"></span>
+          </div>
+        <% end %>
+        <form action="/" method="post" class="form">
           <div class="row gutters">
             <div class="col col-6">
               <div class="form-item">
                 <label>Navn / Firma<span class="req">*</span></label>
-                <input type="email">
+                <input type="text" name="name">
+                <% if @errors and @errors['name'].present? %>
+                  <div class="error-message"><%= @errors['name'].join(', ').capitalize %></div>
+                <% end %>
               </div>
             </div>
             <div class="col col-6">
               <div class="form-item">
                 <label>Telefon</label>
-                <input type="text" name="phone-number">
+                <input type="text" name="phone">
+                <% if @errors and @errors['phone'].present? %>
+                  <div class="error-message"><%= @errors['phone'].join(', ').capitalize %></div>
+                <% end %>
               </div>
             </div>
           </div>
@@ -144,13 +156,13 @@
             <div class="col col-6">
               <div class="form-item">
                 <label>Epost<span class="req">*</span></label>
-                <input type="email">
+                <input type="email" name="email">
               </div>
             </div>
             <div class="col col-6">
               <div class="form-item">
                 <label>Emne<span class="req">*</span></label>
-                <select>
+                <select name="subject">
                   <option value="">...</option>
                   <option value="">Prisforespørsel</option>
                   <option value="">Spørsmål om våre tjenester</option>
@@ -164,7 +176,7 @@
           </div>
           <div class="form-item">
             <label>Beskjed</label>
-            <textarea rows="6"></textarea>
+            <textarea rows="6" name="message"></textarea>
           </div>
           <div class="form-item">
             <button class="w100 button-style"">Send</button>
@@ -174,6 +186,12 @@
     </div>
   </div>
 </div>
+
+<% if @errors and @errors.any? %>
+  <script>
+    window.location = '#kontakt';
+  </script>
+<% end %>
 
 <script>
 

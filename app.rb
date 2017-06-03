@@ -44,27 +44,23 @@ class App < Sinatra::Base
   # Contact
   ###########################################################
 
-  get *r(:contact) do
-    erb :'root/reservasjon', :layout => :'layout/layout'
-  end
-
-  post *r(:contact) do
+  post *r(:root) do
     # Validate data
+    # {"name"=>"", "phone"=>"", "email"=>"", "subject"=>"", "message"=>""}
 
-    # {"name"=>"asdfwefawef", "email"=>"awefawef", "antall"=>"1", "time"=>"15", "message"=>"awefawef"}
     @errors = Hash.new{|h, k| h[k] = []}
 
     @errors['name'] << t('error_name') if params['name'].strip.size < 3
     @errors['email'] << t('error_email') if params['email'].strip !~ EMAIL_REGEXP
-    @errors['tel'] << t('error_tel') if params['tel'].strip.size < 8
-    @errors['emne'] << t('error_guest') if params['antall'].strip.blank?
+    @errors['phone'] << t('error_phone') if params['phone'].strip.size < 8
+    @errors['subject'] << t('error_subject') if params['subject'].strip.blank?
 
     if @errors.any?
-      erb :'root/reservasjon', :layout => :'layout/layout'
+      erb :'root/index', :layout => :'layout/layout'
     else
 
       # Send email
-      mail
+      # mail
 
       # Redirect to confirmation
       redirect("#{u(:confirmation)}?#{to_param}")
