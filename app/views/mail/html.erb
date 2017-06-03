@@ -2,11 +2,8 @@
 <p>
   <%= params['name'] %>, <%= params['email'] %>
   <br>
-  <%= t('reserver_form_mob') %>: <%= params['tel'] %>
+  <%= t('email_phone') %>: <%= params['phone'] %>
 </p>
-<div><%= t('reserver_form_dato') %>: <%= params['dato'] %></div>
-<div><%= t('reserver_form_tid') %>: <%= params['tid'] %></div>
-<div><%= t('reserver_form_antall') %>: <%= params['antall'] %></div>
 <p>
   <% if params['message'].present? %>
     <%= params['message'].gsub(%r{(\r\n|\n|\r)}, '<br>') %>

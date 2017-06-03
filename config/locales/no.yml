@@ -1,9 +1,9 @@
 # INDEX
-index_meta: Vi utvikler hjemmesider med fokus høy søkeoptimalisering og rangering på
+index_meta: Vi utvikler hjemmesider med fokus på høy søkeoptimalisering og rangering.
 index_title: Speria Creative - Webdesign og Webutvikling, SEO og Markedsføring, Hosting og Drift Oslo
 
 # OM OSS
-om-oss_meta:
+om-oss_meta: Speria Creative spesialiserer seg innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene vi bygger er brukervennlige, responsive og søkemotoroptimaliserte.
 om-oss_title: Om Oss| Speria Creative - Webdesign og Webutvikling, SEO og Markedsføring, Hosting og Drift Oslo
 
 # DESIGN & UTVIKLING
@@ -11,7 +11,7 @@ design_meta: Vi lager alle designer fra scratch med personlighet, samtidig som v
 desig _title: Design & Utvikling| Speria Creative
 
 # SEO & MARKEDSFØRING
-om-oss_meta: Vi er eksperter på markedsføring
+om-oss_meta: Vi er eksperter på markedsføring, og setter høy fokus på søkeoptimalisering.
 om-oss_title: SEO & Markedsføring| Speria Creative
 
 # HOSTING & DRIFT
@@ -19,27 +19,27 @@ host_meta: Vi tilbyr hosting og oppfølging til et veldig lavt pris.
 host_title: Hosting & Drift| Speria Creative
 
 # PROSJEKTER
-host_meta: Ta en kikk på våre siste Prosjeketer
+host_meta: Ta et kikk på våre siste Prosjeketer
 host_title: Prosjekter| Speria Creative
 
 # KONTAKT
-host_meta:
-host_title: Kontakt| Speria Creative - post@speria.no
-
+host_meta: "Epost: post@speria.no, tel: 40295090"
+host_title: Kontakt | Speria Creative
 
 # Error Message app.rb
-reserver_form_errormsg: Vennligst rett opp feilen nedenfor.
+correct_errors: Vennligst rett opp feilene nedenfor
 error_name: "Minst 3 bokstaver"
-error_emne: "Du må velge et emne"
+error_phone: "Minst 8 siffer"
+error_subject: "Velg et emne"
 error_email: "Ugyldig epost"
-error_beskjed: "Kan ikke stå tomt, og må minst ha 10 bokstaver"
 
 
-# ROOT bekreftelse
+# Bekreftelse
 bekreftelse_tittel: Takk for din henvendelse!
-bekreftelse_text1: "Vi tar kontakt fortløpende."
+bekreftelse_text1: "Vi tar kontakt fortløpende, innen 24 timer."
 
 # Mail
+email_phone: Telefonnummer
 
 # Title and Meta description
 index_meta: "Speria Creative er en webdesign firma som leverer"

@@ -60,7 +60,7 @@ class App < Sinatra::Base
     else
 
       # Send email
-      # mail
+      mail
 
       # Redirect to confirmation
       redirect("#{u(:confirmation)}?#{to_param}")

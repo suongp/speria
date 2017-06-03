@@ -16,6 +16,12 @@ module AppHelper
     Rack::Utils.escape_html(text)
   end
 
+  def error(key)
+    if @errors and @errors[key.to_s].present?
+      %{<div class="error-message">#{@errors[key.to_s].join(', ').capitalize}</div>}
+    end
+  end
+
   # Get current language
   def current_lang
     @current_lang ||= (request.path =~ /^\/en/ ? 'en' : 'no')
@@ -45,9 +51,9 @@ module AppHelper
 
     # Options for email
     options = {
-      :to => '', :from => '>',
+      :to => 'post@speria.no', :from => 'Kontaktskjema <post@speria.no>',
       'h:Reply-To' => "#{params['name']} <#{params['email']}>",
-      :subject => 'Reservasjon', :text => erb(:'mail/text'), :html => erb(:'mail/html', :layout => :'layout/mail')
+      :subject => SUBJECTS[params['subject'].to_sym], :text => erb(:'mail/text'), :html => erb(:'mail/html', :layout => :'layout/mail')
     }
 
     # Set up mailgun

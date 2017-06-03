@@ -136,19 +136,15 @@
             <div class="col col-6">
               <div class="form-item">
                 <label>Navn / Firma<span class="req">*</span></label>
-                <input type="text" name="name">
-                <% if @errors and @errors['name'].present? %>
-                  <div class="error-message"><%= @errors['name'].join(', ').capitalize %></div>
-                <% end %>
+                <input type="text" name="name" value="<%= h(params['name']) %>">
+                <%= error(:name) %>
               </div>
             </div>
             <div class="col col-6">
               <div class="form-item">
                 <label>Telefon</label>
-                <input type="text" name="phone">
-                <% if @errors and @errors['phone'].present? %>
-                  <div class="error-message"><%= @errors['phone'].join(', ').capitalize %></div>
-                <% end %>
+                <input type="text" name="phone" value="<%= h(params['phone']) %>">
+                <%= error(:phone) %>
               </div>
             </div>
           </div>
@@ -156,30 +152,29 @@
             <div class="col col-6">
               <div class="form-item">
                 <label>Epost<span class="req">*</span></label>
-                <input type="email" name="email">
+                <input type="text" name="email" value="<%= h(params['email']) %>">
+                <%= error(:email) %>
               </div>
             </div>
             <div class="col col-6">
               <div class="form-item">
                 <label>Emne<span class="req">*</span></label>
                 <select name="subject">
-                  <option value="">...</option>
-                  <option value="">Prisforespørsel</option>
-                  <option value="">Spørsmål om våre tjenester</option>
-                  <option value="">Markedsføring</option>
-                  <option value="">Design og utvikling</option>
-                  <option value="">Hosting og Drift</option>
-                  <option value="">Annet</option>
+                  <option value="">---</option>
+                  <% SUBJECTS.each do |k, v| %>
+                    <option value="<%= k %>"<%= params['subject'] == k.to_s ? ' selected' : '' %>><%= v %></option>
+                  <% end %>
                 </select>
+                <%= error(:subject) %>
               </div>
             </div>
           </div>
           <div class="form-item">
             <label>Beskjed</label>
-            <textarea rows="6" name="message"></textarea>
+            <textarea rows="6" name="message"><%= h(params['message']) %></textarea>
           </div>
           <div class="form-item">
-            <button class="w100 button-style"">Send</button>
+            <button class="w100 button-style">Send</button>
           </div>
         </form>
       </div>

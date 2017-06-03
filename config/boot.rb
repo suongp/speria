@@ -8,6 +8,16 @@ Bundler.require(:development) if MODE == 'development'
 # Load Settings
 SETTINGS = YAML.load_file('./config/settings.yml').symbolize_keys
 
+# For the contact form
+SUBJECTS = {
+  :price => 'Prisforespørsel',
+  :questions => 'Spørsmål om våre tjenester',
+  :marketing => 'Markedsføring',
+  :design =>'Design og utvikling',
+  :hosting => 'Hosting og Drift',
+  :other => 'Annet'
+}
+
 require 'sinatra/multi_route'
 
 require './lib/sitemap.rb'
