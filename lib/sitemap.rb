@@ -14,7 +14,7 @@ class Sitemap
   end
 
   def self.write
-    base = 'https://speria.no'
+    base = 'https://www.speria.no'
     SitemapGenerator::Sitemap.default_host = base
     SitemapGenerator::Sitemap.include_root = true
     SitemapGenerator::Sitemap.public_path = 'app/views/root'
