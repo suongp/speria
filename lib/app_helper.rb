@@ -16,6 +16,11 @@ module AppHelper
     Rack::Utils.escape_html(text)
   end
 
+  # Add slash to path if needed
+  def pad
+    request.path == '/' ? '' : '/'
+  end
+
   def error(key)
     if @errors and @errors[key.to_s].present?
       %{<div class="error-message">#{@errors[key.to_s].join(', ').capitalize}</div>}

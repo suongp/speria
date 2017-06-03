@@ -109,7 +109,7 @@
   </div>
 </div>
 <div class="go-top">
-  <a id="arrow-up" href="/#navi"><img src="/images/arrow_up.png"></a>
+  <a id="arrow-up" href="#navi"><img src="/images/arrow_up.png"></a>
 </div>
 
 <div class="full-width border-row dark-background">
@@ -183,9 +183,7 @@
 </div>
 
 <% if @errors and @errors.any? %>
-  <script>
-    window.location = '#kontakt';
-  </script>
+  <script>window.location = '#kontakt';</script>
 <% end %>
 
 <script>
@@ -195,18 +193,13 @@
 
   document.addEventListener('DOMContentLoaded', function(){
     for(i = 0; i < slides.length; i++) {
-      console.log('Hello');
       slides[i].addEventListener('mouseenter', function(event){
         var t = event.srcElement.querySelector('.text-slider');
         $(t).fadeIn();
-        // t.style.display = 'block';
         clearTimeout(timer);
-        console.log(event);
-        console.log('enter');
       });
 
       slides[i].addEventListener('mouseleave', function(event){
-        console.log('leave');
         var t = event.srcElement.querySelector('.text-slider');
         $(t).fadeOut();
         restartTimer();
