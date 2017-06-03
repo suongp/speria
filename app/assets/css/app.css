@@ -111,7 +111,6 @@ hr {
 }
 
 .speria-logo {
-  max-width: 138px;
   margin: 0.618em;
   position: absolute;
   left: 0;
@@ -480,6 +479,7 @@ figure {
   font-size: 28px;
   letter-spacing: 2px;
   font-weight: 200;
+  white-space: nowrap;
 }
 
 @media only screen and (max-width: 550px) {
