@@ -14,8 +14,8 @@ class Sitemap
   end
 
   def self.write
-    base = 'http://tabibito.no'
-    SitemapGenerator::Sitemap.default_host = bases
+    base = 'https://speria.no'
+    SitemapGenerator::Sitemap.default_host = base
     SitemapGenerator::Sitemap.include_root = true
     SitemapGenerator::Sitemap.public_path = 'app/views/root'
     SitemapGenerator::Sitemap.compress = false
@@ -23,7 +23,8 @@ class Sitemap
       ROUTES.each do |key, routes|
         no, en = routes
         # Options: :changefreq => 'daily', :priority => 0.9, :lastmod
-        add(no, :alternate => {:href => "#{base}#{en}", :lang => 'en'})
+        # NOT IN USE: add(no, :alternate => {:href => "#{base}#{en}", :lang => 'en'})
+        add(no)
       end
     end
   end
