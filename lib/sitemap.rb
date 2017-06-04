@@ -4,7 +4,7 @@ class Sitemap
 
   def self.ping
     # Escaped URL
-    u = CGI.escape("http://.no/sitemap.xml")
+    u = CGI.escape("http://www.speria.no/sitemap.xml")
 
     # ping google
     RestClient.get("http://www.google.com/webmasters/tools/ping?sitemap=#{u}")
@@ -21,6 +21,7 @@ class Sitemap
     SitemapGenerator::Sitemap.compress = false
     SitemapGenerator::Sitemap.create do
       ROUTES.each do |key, routes|
+        next if key == :root
         no, en = routes
         # Options: :changefreq => 'daily', :priority => 0.9, :lastmod
         # NOT IN USE: add(no, :alternate => {:href => "#{base}#{en}", :lang => 'en'})

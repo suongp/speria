@@ -1,1 +1,1 @@
-Sitemap: http://tabibito.no/sitemap.xml
+Sitemap: https://www.speria.no/sitemap.xml
