@@ -447,6 +447,7 @@ figure {
 .mySlides {
   position: relative;
   border: 1px solid #ddd;
+  height: 578px;
 }
 
 .mySlides a{
