@@ -24,8 +24,7 @@ class Sitemap
         next if key == :root
         no, en = routes
         # Options: :changefreq => 'daily', :priority => 0.9, :lastmod
-        # NOT IN USE: add(no, :alternate => {:href => "#{base}#{en}", :lang => 'en'})
-        add(no)
+        add(no, :alternate => {:href => "#{base}#{en}", :lang => 'en'})
       end
     end
   end

@@ -49,6 +49,18 @@ module AppHelper
     File.read(File.join(Dir.pwd, 'app', 'views', path, name)) rescue 404
   end
 
+  # For the contact form
+  def subjects
+    @subjects ||= {
+      :price => t('subjects_price'),
+      :questions => t('subjects_questions'),
+      :marketing => t('subjects_marketing'),
+      :design => t('subjects_design'),
+      :hosting => t('subjects_hosting'),
+      :other => t('subjects_other')
+    }
+  end
+
   # Send email
   def mail(background = false)
     # Don't deliver if it's disabled
@@ -58,7 +70,7 @@ module AppHelper
     options = {
       :to => 'post@speria.no', :from => 'Kontaktskjema <post@speria.no>',
       'h:Reply-To' => "#{params['name']} <#{params['email']}>",
-      :subject => SUBJECTS[params['subject'].to_sym], :text => erb(:'mail/text'), :html => erb(:'mail/html', :layout => :'layout/mail')
+      :subject => subjects[params['subject'].to_sym], :text => erb(:'mail/text'), :html => erb(:'mail/html', :layout => :'layout/mail')
     }
 
     # Set up mailgun
