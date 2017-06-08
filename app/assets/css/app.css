@@ -212,7 +212,7 @@ hr {
 
 @media only screen and (max-width: 550px) {
   .header-om-oss, .header-design, .header-seo, .header-hosting {
-    height:350px;
+    height: 300px;
   }
 }
 .header-om-oss {
@@ -250,14 +250,14 @@ hr {
 
 @media only screen and (max-width: 770px) {
   .header-design h1, .header-seo h1, .header-hosting h1, .header-om-oss h1 {
-    padding-top: 3.6em;
+    padding-top: 3em;
     font-size: 48px;
   }
 }
 
 @media only screen and (max-width: 560px) {
   .header-design h1, .header-seo h1, .header-hosting h1, .header-om-oss h1 {
-    padding-top: 3.3em;
+    padding-top: 4em;
     font-size: 26px;
   }
 
@@ -276,7 +276,7 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .header-design h2, .header-seo h2, .header-hosting h2, .header-om-oss h2{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.3em;
   }
 }
@@ -291,7 +291,8 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .intro-design-utvikling h2, .intro-seo h2, .intro-hosting h2, .intro-om-oss h2{
-    font-size: 24px;
+    font-size: 25px;
+    padding-bottom: 0;
   }
 }
 
@@ -305,7 +306,7 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .intro-design-utvikling h3, .intro-hosting h3, .intro-seo h3, .intro-om-oss h3{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
