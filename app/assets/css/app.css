@@ -508,9 +508,8 @@ figure {
 }
 
 .mySlides a:hover{
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.9);
-  padding: 5px 30px;
   color: #fff;
+  text-decoration: underline;
 }
 
 .text-slider {
@@ -524,7 +523,7 @@ figure {
   top: 0;
   left: 0;
   background-color: #333;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .text-slider h4 {
@@ -540,6 +539,9 @@ figure {
 @media only screen and (max-width: 550px) {
   .text-slider h4 {
     font-size: 14px ;
+    white-space: normal;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
