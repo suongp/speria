@@ -59,13 +59,11 @@ html {
 body{
   padding: 0;
   margin:0;
-
 }
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   color: #333331;
-
 }
 
 .full-width {
@@ -120,7 +118,7 @@ hr {
 
 @media only screen and (max-width: 650px) {
   .speria-logo {
-    max-width: 11 0px;
+    max-width: 110px;
     margin-top: 20px;
   }
 }
@@ -140,7 +138,6 @@ hr {
 .lang-switch a.active-lang {
   text-decoration: underline;
   color: rgb(244,88,110);
-
 }
 
 .lang-switch span{
@@ -162,6 +159,12 @@ hr {
     -webkit-image-set(url("/images/susph_image_web.jpg") 1x, url("/images/susph_image_web@2x.jpg") 2x);
 }
 
+@media only screen and (max-width: 550px) {
+  .head-image  {
+    height: 350px;
+  }
+}
+
 .head-image h1 {
   font-family: 'Monoton', sans-serif;
   padding-top: 2.2em;
@@ -179,9 +182,8 @@ hr {
 
 @media only screen and (max-width: 550px) {
   .head-image h1  {
-    padding-top: 2.6em;
-    padding-left: 20px;
-    font-size: 52px;
+    padding-top: 1.6em;
+    font-size: 50px;
     line-height: 1em;
   }
 }
@@ -194,7 +196,8 @@ hr {
 
 @media only screen and (max-width: 550px) {
   .head-image blockquote {
-    font-size: 16px;
+    font-size: 14px;
+    padding-top: 0;
   }
 }
 
@@ -206,6 +209,12 @@ hr {
   text-align: center;
 }
 
+
+@media only screen and (max-width: 550px) {
+  .header-om-oss, .header-design, .header-seo, .header-hosting {
+    height:350px;
+  }
+}
 .header-om-oss {
   background-image: url(/images/om_oss_web@2x.jpg);
   background-image:
@@ -233,7 +242,7 @@ hr {
 .header-design h1, .header-seo h1, .header-hosting h1, .header-om-oss h1{
   padding-top: 2.8em;
   color: #fff;
-  line-height: 1.618em;
+  line-height: 1.218em;
   font-size: 56px;
   text-shadow: 0 3px 2px rgba(0, 0, 0, .5);
   font-weight: 600;
@@ -248,8 +257,12 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .header-design h1, .header-seo h1, .header-hosting h1, .header-om-oss h1 {
-    padding-top: 3.4em;
-    font-size: 40px;
+    padding-top: 3.3em;
+    font-size: 30px;
+  }
+
+  .new-line {
+    display: block;
   }
 }
 
@@ -263,7 +276,9 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .header-design h2, .header-seo h2, .header-hosting h2, .header-om-oss h2{
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.3em;
+
   }
 }
 
