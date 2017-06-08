@@ -18,7 +18,7 @@ module AppHelper
 
   # Add slash to path if needed
   def pad
-    request.path == '/' ? '' : '/'
+    request.path == u(:root) ? '' : u(:root)
   end
 
   def error(key)

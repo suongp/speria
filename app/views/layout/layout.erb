@@ -55,8 +55,8 @@
           <li class="<%= request.path == u(:root) ? 'active' : '' %>"><a href="<%= u(:root) %>"><%= t('nav1') %> &nbsp; &vert;</a></li>
           <li class="<%= [u(:design_utvikling), u(:seo_marketing), u(:hosting_drift)].include?(request.path) ? 'active' : '' %>"><a href="" data-component="dropdown" data-target="#dropdown-fixed"><%= t('nav2') %><span class="caret down">&nbsp; &vert;</span></a></li>
           <li class="<%= request.path == u(:om_oss) ? 'active' : '' %>"><a href="<%= u(:om_oss) %>"><%= t('nav3') %> &nbsp; &vert;</a></li>
-          <li><a id="prosjekt-link" href="/#prosjekter"><%= t('nav4') %> &nbsp; &vert;</a></li>
-          <li><a id="kontakt-link" href="/#kontakt"><%= t('nav5') %></a></li>
+          <li><a id="prosjekt-link" href="<%= pad %>#prosjekter"><%= t('nav4') %> &nbsp; &vert;</a></li>
+          <li><a id="kontakt-link" href="<%= pad %>#kontakt"><%= t('nav5') %></a></li>
         </ul>
       </nav>
       <div class="dropdown hide" id="dropdown-fixed">
