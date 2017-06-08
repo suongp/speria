@@ -1,11 +1,11 @@
 # Title and Meta description
 # INDEX
-index_meta: We develop websites focused on increasing your search engine ranking SEO.
+index_meta: We develop websites focused on increasing your SEO ranking.
 index_title: Speria Creative | User Friendly and Responsive Web Design and Web Development, SEO and Marketing, Hosting in Oslo, affordable and low price.
 
 # OM OSS
 om-oss_meta: "We specialize in small, medium and startups. All websites we create are user friendly, responsive and search engine optimized"
-om-oss_title: About Us | Speria Creative - Web Design and Web Development, SEO and Marketing. Hosting in Oslo
+om-oss_title: About Us | Speria Creative - Web Design and Web Development, SEO and Marketing. Hosting. Oslo, Norway
 
 # DESIGN & UTVIKLING
 design_meta: "We create mobile responsive and user-friendly websites with high quality and maximum speed and stability."
@@ -17,14 +17,14 @@ seo_title: SEO &amp; Marketing | Speria Creative
 
 # HOSTING & DRIFT
 host_meta: "We are experts in SSL and the domain, and we offer hosting in Norway and follow-up at very low prices."
-host_title: Hosting| Speria Creative
+host_title: Hosting &amp; Support| Speria Creative
 
 # PROSJEKTER
 prosjekt_meta: "Have a look at our latest projects"
 prosjekt_title: Projects | Speria Creative
 
 # KONTAKT
-kontakt_meta: "Email: post@speria.no"
+kontakt_meta: "Email us: post@speria.no"
 kontakt_title: Contact | Speria Creative
 
 # Bekreftelse
@@ -47,7 +47,7 @@ subjects_price: "Price Inquiry"
 subjects_questions: "Questions about our services"
 subjects_marketing: "Marketing"
 subjects_design: "Design and Development"
-subjects_hosting: "Hosting"
+subjects_hosting: "Hosting and Support"
 subjects_other: "Other"
 
 #layout.erb
@@ -64,7 +64,7 @@ nav_tjenester3: "Hosting &amp; Support"
 
 # Root
 # INDEX
-index_undertittel_bilde: "We think out of the box and make websites with personality"
+index_undertittel_bilde: "We think out of the box and build personality in Web Design"
 
 index_om_oss_tittel: "About Us"
 index_om_oss1: "Speria Creative was established in 2017. We are today a small dedicated team of two permanent employees, and a network of creative freelancers that we connect to our projects when needed."
@@ -76,12 +76,12 @@ index_tjenester_tittel: "Our Services"
 index_tjenester: "Speria Creative delivers customized web design at affordable prices. <br> Check out what we have to offer and why you should choose us."
 
 index_design_tittel: "Design &amp; Development"
-index_design: "We are creative web designers who create unique designs from scratch"
+index_design: "We are creative web designers who create unique designs from scratch."
 
 index_seo_tittel: "Marketing &amp; SEO"
 index_seo: "We are marketing experts and help you become more visible online."
 
-index_hosting_tittel: Hosting
+index_hosting_tittel: "Hosting &amp; Support"
 index_hosting: "We have follow-up guarantee and help you with hosting."
 
 index_prosjekter: "Recent Projects"
@@ -90,7 +90,7 @@ index_kontakt_tittel: "Contact Us"
 index_kontakt1: "Fill in the contact form or send an email, and we will respond as soon as possible."
 index_kontakt2: "We are looking forward to working with you."
 index_nor: "Norway"
-index_kontakt_form1: "Name / Firm"
+index_kontakt_form1: "Name / Company"
 index_kontakt_form2: "Telephone"
 index_kontakt_form3: "Email"
 index_kontakt_form4: "Subject"
@@ -100,7 +100,7 @@ index_kontakt_form5: "Message"
 om_oss_undertittel_bilde: "Our Team and our Vision"
 om_oss_tittel: "About Us"
 om_oss_tekst1: "Speria Creative was established in 2017. We are today a small dedicated team of two permanent employees, and a network of creative freelancers that we connect to our projects when needed."
-om_oss_tekst2: "We are genuinely committed to deliver good solutions to our customers, and we specialize in small, medium and start-ups businesses. All the websites we build are user friendly, responsive and search engine optimized (SEO)."
+om_oss_tekst2: "We are genuinely committed to deliver good solutions to our customers, and we specialize in small, medium and startup businesses. All the websites we build are user-friendly, responsive and search engine optimized (SEO)."
 om_oss_tekst3: "There are many companies that do the same as us, but we want you to work with us based on who we are. Through hard work we can offer so much more than just a nice website to look at."
 om_oss_tittel1: "Why should you choose us?"
 om_oss_tekst4: "We focus and set our high standard on marketing. Driving traffic to your site is the most important of all. It does not help with a nice page if no one finds it. If you choose us, it's an investment where our goal is to increase your income."
@@ -112,7 +112,7 @@ om_oss_tekst9: "Our vision is simple: We are passionate about creating good resu
 om_oss_tekst10: "Feel free to contact us to get to know more about us!"
 
 # DESIGN OG UTVIKLING
-design_tittel_bilde: "Why is a good webdesign important?"
+design_tittel_bilde: "Why is a good web design important?"
 design_undertittel_bilde: "We make professional websites based on your needs"
 design_tittel: "Design &amp; Deevelopment"
 design_tekst1: "When we develop a design, we constantly focus on a user-friendly and promoting content to your website."
@@ -131,7 +131,7 @@ design_tekst8: "Contact us"
 seo_tekst_bilde: "We help you become more visible online!"
 seo_undertittel_bilde: "We have a strong focus on search engine optimization"
 seo_tittel: "SEO &amp; Marketing"
-seo_tekst1: "We are experts on Online marketing! We can help you with link building to your site, content marketing, social media, innovation methods and much more."
+seo_tekst1: "We are experts on Online marketing!   We can help you with link building to your site, content marketing, social media, innovation methods and much more."
 seo_tittel1: "Search Engine Optimization (SEO)"
 seo_tekst2: "Search engine optimization today is without doubt the most effective form of online marketing, since it's all about click and conversion. Based on our experience and knowledge, we have found the optimal SEO solution that is completely free!"
 seo_tekst3: "We will analyze your website, and with the help of our optimized code and technical solution, we will also go through the use of text and content to reveal important and relevant search terms that fit your profile."
