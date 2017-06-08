@@ -264,6 +264,11 @@ hr {
   .new-line {
     display: block;
   }
+
+  .header-seo h1{
+    padding-top: 3.2em;
+    font-size: 26px;
+  }
 }
 
 .header-design h2, .header-seo h2, .header-hosting h2, .header-om-oss h2{
@@ -276,7 +281,7 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .header-design h2, .header-seo h2, .header-hosting h2, .header-om-oss h2{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.3em;
   }
 }
