@@ -328,6 +328,13 @@ hr {
   font-weight: 300;
 }
 
+@media only screen and (max-width: 550px) {
+  .button.small{
+    font-size: 16px;
+  }
+  }
+}
+
 .intro-om-oss span{
   color: rgb(244,88,110);
   font-size: 40px;
