@@ -21,8 +21,7 @@
 }
 
 .tabs{
-  height: 100px;
-  margin-top: -15px;
+  padding-top: 15px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
@@ -31,7 +30,7 @@
 .tabs ul{
   border-bottom: none;
   float: right;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 button:hover,.button:hover {
@@ -121,7 +120,7 @@ hr {
 
 @media only screen and (max-width: 650px) {
   .speria-logo {
-    width: 110px;
+    max-width: 11 0px;
     margin-top: 20px;
   }
 }
@@ -182,7 +181,7 @@ hr {
   .head-image h1  {
     padding-top: 2.6em;
     padding-left: 20px;
-    font-size: 55px;
+    font-size: 52px;
     line-height: 1em;
   }
 }
