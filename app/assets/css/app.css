@@ -183,7 +183,7 @@ hr {
 @media only screen and (max-width: 550px) {
   .head-image h1  {
     padding-top: 1.6em;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 1em;
   }
 }
@@ -196,7 +196,7 @@ hr {
 
 @media only screen and (max-width: 550px) {
   .head-image blockquote {
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 0;
   }
 }
@@ -258,7 +258,7 @@ hr {
 @media only screen and (max-width: 560px) {
   .header-design h1, .header-seo h1, .header-hosting h1, .header-om-oss h1 {
     padding-top: 3.3em;
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .new-line {
@@ -278,7 +278,6 @@ hr {
   .header-design h2, .header-seo h2, .header-hosting h2, .header-om-oss h2{
     font-size: 20px;
     line-height: 1.3em;
-
   }
 }
 
@@ -292,7 +291,7 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .intro-design-utvikling h2, .intro-seo h2, .intro-hosting h2, .intro-om-oss h2{
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
