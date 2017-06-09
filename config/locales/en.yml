@@ -45,7 +45,7 @@ error_email: "Invalid email"
 #Subjects
 subjects_price: "Price Inquiry"
 subjects_questions: "Questions about our services"
-subjects_marketing: "Marketing"
+subjects_marketing: "Marketing and Content writing"
 subjects_design: "Design and Development"
 subjects_hosting: "Hosting and Support"
 subjects_other: "Other"

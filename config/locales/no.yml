@@ -45,8 +45,8 @@ error_email: "Ugyldig epost"
 #Subjects
 subjects_price: "Prisforespørsel"
 subjects_questions: "Spørsmål om våre tjenester"
-subjects_marketing: "Markedsføring"
-subjects_design: "Design og utvikling"
+subjects_marketing: "Tekst og Markedsføring"
+subjects_design: "Design og Utvikling"
 subjects_hosting: "Hosting og Drift"
 subjects_other: "Annet"
 
@@ -140,8 +140,8 @@ seo_tekst5: "Vi tilbyr grundige SEO-rapporter til våre kunder, som inneholder d
 seo_tittel2: "Tekstforfatter"
 seo_tekst6: "Vi skriver tekster for alle typer blogger og nettsider. Vi dekker alle emner rettet mot det generelle publikum. Våre forfattere er rutinerte skribenter, og vi har kontakter som kan trekkes inn ved behov."
 seo_tekst7: "Vår målsetting er å oppnå høy rangering på aktuelle søk, flere besøkende på bloggen eller nettsiden din, eller flere påmeldte på nyhetsbrev. Flere treff er det samme som flere salg."
-seo_tekst8: "Vi søker alltid å konkretisere målene for tekstene basert på aktuelle nøkkelord og nøkkelfraser. Artiklene er utformet slik at de er søkemotor-optimalisert ved hjelp av velprøvde teknikker. Lengden kan variere, men vanligvis er de på rundt 500 ord."
-seo_tekst9: "Vi kan foreslå emner og temaer for artikler, eller vi kan basere det på ønsker fra deg. Vi kan også gi råd om aktuelle kriterier for å oppnå så mange treff som mulig."
+seo_tekst8: "Vi søker alltid å konkretisere målene for tekstene basert på aktuelle nøkkelord og nøkkelfraser. Tekstene er utformet slik at de er søkemotor-optimalisert ved hjelp av velprøvde teknikker. Lengden kan variere, men vanligvis er de på rundt 500 ord."
+seo_tekst9: "Vi kan foreslå emner og temaer, eller vi kan basere det på ønsker fra deg. Vi kan også gi råd om aktuelle kriterier for å oppnå så mange treff som mulig."
 seo_tekst10: "Trenger du hjelp med markedsføring?"
 seo_tekst11: "Send oss en forespørsel"
 
