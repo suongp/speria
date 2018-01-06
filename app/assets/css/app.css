@@ -21,7 +21,7 @@
 }
 
 .tabs{
-  padding-top: 15px;
+  padding-top: 5px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
@@ -333,11 +333,10 @@ hr {
   .button.small{
     font-size: 16px;
   }
-  }
 }
 
 .intro-om-oss span{
-  color: rgb(244,88,110);
+  color: rgb(244, 88, 110);
   font-size: 40px;
 }
 
@@ -531,7 +530,7 @@ figure {
   position: relative;
   top: 40%;
   color: white;
-  font-size: 28px;
+  font-size: 22px;
   letter-spacing: 2px;
   font-weight: 200;
   white-space: nowrap;
