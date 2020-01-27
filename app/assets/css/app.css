@@ -3,7 +3,7 @@
   text-transform: none;
   text-decoration: none;
   background-color: transparent;
-  color: rgb(244,88,110)
+  color: #f4586e
 }
 
 .tabs li em, .tabs li.active {
@@ -12,7 +12,7 @@
 
 .tabs li em, .tabs li.active a{
   border: none;
-  color: rgb(244, 88, 110);
+  color: #f4586e;
   cursor: pointer;
 }
 
@@ -34,7 +34,7 @@
 }
 
 button:hover,.button:hover {
-  background-color: rgb(244,88,110);
+  background-color: #f4586e;
 }
 
 .button{
@@ -99,7 +99,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 3px solid rgb(244, 88, 110);
+  border-top: 3px solid #f4586e;
   margin-top: 1.618em;
 }
 
@@ -137,7 +137,7 @@ hr {
 
 .lang-switch a.active-lang {
   text-decoration: underline;
-  color: rgb(244,88,110);
+  color: #f4586e;
 }
 
 .lang-switch span{
@@ -145,7 +145,7 @@ hr {
 }
 
 .about-us-intro a {
-  color: rgb(244,88,110);
+  color: #f4586e;
   text-decoration: none;
 }
 
@@ -319,9 +319,9 @@ hr {
 
 .button.small{
   text-decoration: none;
-  color:rgb(244,88,110);
+  color :#f4586e;
   background-color: #fff;
-  border: 2px solid rgb(244,88,110);
+  border: 2px solid #f4586e;
   margin-bottom: 2em;
   font-size: 18px;
   line-height: 1.5em;
@@ -336,7 +336,7 @@ hr {
 }
 
 .intro-om-oss span{
-  color: rgb(244, 88, 110);
+  color: #f4586e;
   font-size: 40px;
 }
 
@@ -415,7 +415,7 @@ h3{
 }
 
 .paragraph a{
-  color: rgb(244,88,110);
+  color: #f4586e;
   text-decoration: none;
 }
 
@@ -432,7 +432,7 @@ h3{
 }
 
 .w100,.button-style{
- background-color: rgb(244,88,110);
+ background-color: #f4586e;
  border: 1px solid #aaa;
 }
 
@@ -609,7 +609,7 @@ a {
 }
 
 a:hover {
-  color: rgb(244,88,110);
+  color: #f4586e;
 }
 
 #navi-mob {
@@ -656,7 +656,7 @@ a:hover {
 
 .error-message{
   font-size: 11pt;
-  color: rgb(244,88,110);
+  color: #f4586e;
 }
 
 .bekreftelse {
